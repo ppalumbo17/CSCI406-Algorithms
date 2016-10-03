@@ -153,6 +153,15 @@ public class Tsp {
 				readFile(input);	
 			}catch(IOException e){
 				System.err.println(e);
+				// System.out.println("Would you like to try again? (Y/N)");
+				// input = reader.nextLine();
+				// if(input.equalsIgnoreCase("Y")||input.equalsIgnoreCase("YES")){
+				// 	initialize();
+				// }
+				// else{
+				// 	System.exit(0);
+				// }
+				System.exit(0);
 			}
 		}
 		else{
@@ -162,6 +171,7 @@ public class Tsp {
 				randomPoints(in);
 			}catch(Exception e){
 				System.err.println(e);
+
 			}
 		}
 		
